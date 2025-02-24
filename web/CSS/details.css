@@ -1,0 +1,32 @@
+.image-gallery .thumb {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.image-gallery .thumb:hover {
+    transform: scale(1.1);
+    border: 3px solid red;
+}
+
+.main-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card {
+    font-size: 1.2rem;
+}
+
+.btn-lg {
+    font-size: 1.5rem;
+}
+
+.details {
+    padding-top: 80px;
+}
+
+
