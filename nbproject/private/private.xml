@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/D:/HocKy4/PRJ301/dự%20án%20cuối%20kì/code/Shop_acc_UI/web/index.jsp</file>
+=======
+            <file>file:/D:/4ST-SEMESTER/PRJ301/project_prj/Shop_acc_UI/web/views/product_manager.jsp</file>
+            <file>file:/D:/4ST-SEMESTER/PRJ301/project_prj/Shop_acc_UI/web/views/menu.jsp</file>
+            <file>file:/D:/4ST-SEMESTER/PRJ301/project_prj/Shop_acc_UI/web/views/details.jsp</file>
+            <file>file:/D:/4ST-SEMESTER/PRJ301/project_prj/Shop_acc_UI/web/views/home.jsp</file>
+>>>>>>> 50bdc26770ef8d4ef37b39b18fa7d1e7fb8ccaea
         </group>
     </open-files>
 </project-private>

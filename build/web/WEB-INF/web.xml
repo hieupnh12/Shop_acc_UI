@@ -5,6 +5,7 @@
 	 xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_1.xsd"
 	 version="6.1">
 
+<<<<<<< HEAD
      <welcome-file-list>
         <welcome-file>
             index.jsp
@@ -13,4 +14,6 @@
     
     
     
+=======
+>>>>>>> 50bdc26770ef8d4ef37b39b18fa7d1e7fb8ccaea
 </web-app>
