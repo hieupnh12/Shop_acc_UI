@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#eye').click(function() {
+    $('.eye').click(function() {
         $(this).toggleClass('open'); // Toggle trạng thái mở
         
         // Sửa cách thay đổi icon

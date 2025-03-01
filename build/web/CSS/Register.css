@@ -11,7 +11,7 @@ body{
 
 
 #wrapper{
-    
+    display: flex;
     text-align: center;
     background: rgba(0,0,0,0.5);
     padding: 40px;
@@ -19,10 +19,27 @@ body{
     margin-top: 160px;
     border-radius: 10px;
     color: white;
-    max-width: 500px;
+    max-width: 1000px;
 }
 
-/* phần login chính  */
+/* phần thông báo */
+
+#form-heading{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.form-tb{
+}
+
+.form-tb p{
+    color: red;
+}
+
+
+
+
+/* phần Register chính  */
 
 .form-login{
     width: 300px;
@@ -35,7 +52,6 @@ body{
 .form-group{
     margin: 20px 0;
     border-bottom: 1px solid white;
-    display: flex;
     align-items: center;
     color: white;
 }
@@ -80,7 +96,8 @@ body{
     width: 100%;
     text-transform: uppercase;
     padding: 6px 10px;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
@@ -90,60 +107,44 @@ body{
     transition: 0.2s ease-in-out;
 }
 
-/*phần remember và phần forgot password*/
 
-.d-flex{
-    margin-top: 20px;
+/* phần password đăng kí */
+
+#pass{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    
 }
 
- div .forgot {
+
+
+
+.form-group1{
+    margin: 0 2%;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
     color: white;
 }
 
+/* phần remember*/
 
 
 
 
-/* phần các lựa chọn sign in khác */
-
-.text-center{
-  text-align: center;
-}
-
-.text-center p{
-  margin: 0;
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
+/* phần các lựa chọn sign up khác */
 
 
 .btn{
     background-color: transparent;
     color: white;
+    width: 100%;
 }
 
 .btn:hover{
     background-color: #fff;
     color: black;
-    transition: 0.5s ease-in-out;
-}
-
-
-/* phần register*/
-
-#tb{
-    margin-top: 50px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-#tb p{
-  margin: 0;
-}
-
-.btn-link{
-    color: white;
-    margin: 0;
-    margin-left: 2%;
+    transition: 0.2s ease-in-out;
 }
